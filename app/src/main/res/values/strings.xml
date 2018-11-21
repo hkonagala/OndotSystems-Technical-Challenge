@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ImageFinder</string>
+    <string name="app_name">Image Finder</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="fingerprint_error">Sorry, looks like your device does not support fingerprint authentication.\n\nWould you like to continue anyway?</string>
+    <string name="cancel">Cancel</string>
+    <string name="signin">Sign In</string>
+    <string name="ok">OK</string>
 </resources>
