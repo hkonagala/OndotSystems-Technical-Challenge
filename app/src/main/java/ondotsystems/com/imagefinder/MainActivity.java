@@ -2,12 +2,11 @@ package ondotsystems.com.imagefinder;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.marcoscg.fingerauth.FingerAuth;
 import com.marcoscg.fingerauth.FingerAuthDialog;
@@ -15,7 +14,7 @@ import com.marcoscg.fingerauth.FingerAuthDialog;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //TODO
-    //1. fingerprint auth - if(hardware syupported) move forward
+    //1. fingerprint auth - if(hardware supported) move forward
     //2. xml for two screens editext and recyclerview with grid layout
     //3. volley & okhttp for rest API - async task
 
