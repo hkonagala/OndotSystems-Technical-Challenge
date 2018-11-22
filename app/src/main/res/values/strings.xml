@@ -5,4 +5,9 @@
     <string name="cancel">Cancel</string>
     <string name="signin">Sign In</string>
     <string name="ok">OK</string>
+    <string name="search">Search Images</string>
+    <string name="error400">Bad Request, please try again!</string>
+    <string name="error404">Page not found, please try again!</string>
+    <string name="error429">Too many requests, please try again!</string>
+    <string name="network_error">network error, please try again!</string>
 </resources>

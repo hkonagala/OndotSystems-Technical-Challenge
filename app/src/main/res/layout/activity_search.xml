@@ -7,12 +7,38 @@
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
 
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/search"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="4dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/searchView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/search"
+        android:background="@color/colorAccent"
+        android:padding="4dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:foreground="?attr/selectableItemBackground"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/images_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
+        android:layout_below="@id/btn_search"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"/>
+        android:paddingRight="16dp" />
 
 </RelativeLayout>

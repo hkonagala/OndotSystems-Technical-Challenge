@@ -14,15 +14,9 @@ import com.marcoscg.fingerauth.FingerAuthDialog;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //TODO
-    //1. fingerprint auth - if(hardware supported) move forward
-    //2. xml for two screens editext and recyclerview with grid layout
-    //3. volley & okhttp for rest API - async task
-
-    //4. scroll view to the grid
-    //5. picasso libr for image parsing
     //6. code structure & readability
     //7. design patterns
-    //8. handle orientation changes & edge cases
+    //8. handle orientation changes & edge cases (empty list/network error)
 
     private FingerAuthDialog fingerAuthDialog;
     boolean hasFingerprintSupport;
