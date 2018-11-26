@@ -4,10 +4,10 @@
 An attempt at parsing images from Pixabay API using volley library and ViewModel architecture in android. The project contains two screens, first asks for fingerprint authentication, on successful authentication, navigates to another screen containing a edittext for search, button and recyclerview which shows results from Pixabay API. 
 
 The project uses the following libraries:
-FingerAuth for fingerprint validation
-volley for networking (easy & automatic scheduling of network request, caching etc)
-Picasso for image processing
-lottie for animations
+FingerAuth for fingerprint validation,
+volley for networking (easy & automatic scheduling of network request, caching etc),
+Picasso for image processing,
+lottie for animations,
 gson for serializing/de-serializing java objects
 
 How to run:
