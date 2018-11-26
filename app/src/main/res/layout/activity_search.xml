@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchActivity">
+    tools:context="harika.com.imagefinder.SearchActivity">
 
     <EditText
         android:id="@+id/searchView"
@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/btn_search"
-        android:layout_width="wrap_content"
+        android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_below="@id/searchView"
         android:layout_centerHorizontal="true"
@@ -32,7 +32,7 @@
         android:textColor="@color/white"
         android:foreground="?attr/selectableItemBackground"/>
 
-    <android.support.v7.widget.RecyclerView
+    <harika.com.imagefinder.util.EmptyRecyclerView
         android:id="@+id/images_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -40,5 +40,33 @@
         android:layout_below="@id/btn_search"
         android:paddingLeft="16dp"
         android:paddingRight="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/emptyContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_search">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="empty_box.json"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/empty_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lottie_animation"
+            android:text="@string/emptyView"
+            android:textAlignment="center"
+            android:padding="4dp"/>
+
+    </RelativeLayout>
+
+
 
 </RelativeLayout>

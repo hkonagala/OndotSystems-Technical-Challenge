@@ -1,5 +1,11 @@
-package ondotsystems.com.imagefinder.model;
+package harika.com.imagefinder.model;
 
+import android.os.Parcel;
+
+/*
+*
+* Model class
+ */
 public class PixabayImage {
 
     private String imageUrl;
@@ -8,6 +14,11 @@ public class PixabayImage {
     public PixabayImage(String imageUrl, int downloads) {
         this.imageUrl = imageUrl;
         this.downloads = downloads;
+    }
+
+    protected PixabayImage(Parcel in) {
+        imageUrl = in.readString();
+        downloads = in.readInt();
     }
 
     public String getImageUrl() {

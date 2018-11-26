@@ -7,7 +7,13 @@
     <string name="ok">OK</string>
     <string name="search">Search Images</string>
     <string name="error400">Bad Request, please try again!</string>
-    <string name="error404">Page not found, please try again!</string>
-    <string name="error429">Too many requests, please try again!</string>
-    <string name="network_error">network error, please try again!</string>
+    <string name="error404">Connection error, please check your Internet</string>
+    <string name="error429">Session timed out, please try again later!</string>
+    <string name="network_error">Please check your Internet connection!</string>
+    <string name="emptyView">No search results available</string>
+    <string name="server_error">Server error, please try again!</string>
+    <string name="auth_error">Authentication failed, please try again!</string>
+    <string name="parse_error">Parsing error, please try again!</string>
+    <string name="empty_str">Search cannot be empty, please enter something</string>
+    <string name="loading">Please Wait...Loading Images</string>
 </resources>

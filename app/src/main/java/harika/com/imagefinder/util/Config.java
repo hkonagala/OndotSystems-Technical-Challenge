@@ -1,5 +1,9 @@
-package ondotsystems.com.imagefinder.util;
+package harika.com.imagefinder.util;
 
+/*
+*
+* Helper class for constants
+ */
 public class Config {
 
     public static final String BASE_URL = "https://pixabay.com/api/?key=";

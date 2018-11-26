@@ -1,8 +1,6 @@
-package ondotsystems.com.imagefinder.adapter;
+package harika.com.imagefinder.adapter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +11,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import ondotsystems.com.imagefinder.R;
-import ondotsystems.com.imagefinder.model.PixabayImage;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+import harika.com.imagefinder.R;
+import harika.com.imagefinder.model.PixabayImage;
 
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHolder> {
 
