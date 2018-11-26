@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    //Todo 1. mvvp design pattern
+    //Todo 1. mvvm design pattern
     //Todo 2. viewmodel class to handle orientation changes
 
 
