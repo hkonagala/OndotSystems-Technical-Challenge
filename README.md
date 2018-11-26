@@ -10,6 +10,8 @@ Picasso for image processing,
 lottie for animations,
 gson for serializing/de-serializing java objects
 
+The project also handles edge cases like: no results from API, network errors, etc
+
 How to run:
 Clone or download the repository on to the local machine. open in Android Studio and run it.
 
